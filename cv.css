@@ -1,0 +1,104 @@
+body
+{
+    background-image: url("ab.jpg") ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+strong
+{
+    font-weight: bold;
+}
+.clr
+{
+    clear: both;
+}
+h1
+{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h3
+{
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+#container
+{
+    background-color: white;
+width: 930px;
+margin: 50px auto 10px auto;
+padding: 20px 30px;
+border-top: darkgray solid 6px;
+border-bottom: darkgray solid 6px;
+}
+#header
+{
+    padding: 10px 0;
+    border-bottom: #000 dotted 1px;
+    overflow: hidden;
+}
+#header #name
+{
+    float: left;
+}
+#header #contact
+{
+    float: right;
+}
+.row{
+    padding: 30px 0;
+    font-size: 20px;
+    overflow: hidden;
+    font-style: italic;
+    border-bottom: #000 dotted 1px;
+  
+}
+h2.left
+{
+    float: left;
+    width: 140px;
+    font-style: italic;
+
+}
+#profile p
+{
+    float:right;
+    width: 700px;
+}
+#skills ul
+{
+    float:right;
+    width: 700px;
+}
+#technical table
+{
+    float:right;
+    width: 700px;
+}
+#technical table td
+{
+    width: 100px;
+    border-bottom: #000 dotted 1px;
+  padding: 5px;
+}
+
+#experience div
+{
+    float: right;
+    width: 700px;
+    padding: 10px 0;
+    border-bottom: #000 dotted 1px;
+}
+#education div
+{
+    float:right;
+    width: 700px;
+}
+footer
+{
+    text-align: center;
+    padding: 10px;
+}
